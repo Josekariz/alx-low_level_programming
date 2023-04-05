@@ -17,4 +17,5 @@ dest[j] = src[j];
 n--;
 j++;
 }
+return (dest);
 }
