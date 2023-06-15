@@ -8,13 +8,13 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-    size_t cnt = 0;
+size_t cnt = 0;
 
-    while (h != NULL)
-    {
-        cnt++;
-        h = h->next;
-    }
+while (h != NULL)
+{
+cnt++;
+h = h->next;
+}
 
-    return (cnt);
+return (cnt);
 }
